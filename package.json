@@ -14,16 +14,15 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"build": "rslib build",
 		"dev": "rslib build --watch",
 		"lint": "biome check .",
 		"lint:write": "biome check . --write",
 		"prepare": "simple-git-hooks && npm run build",
-		"test": "node ./test/index.js"
+		"test": "node ./test/index.js",
+		"bump": "npx bumpp"
 	},
 	"simple-git-hooks": {
 		"pre-commit": "npx nano-staged"
@@ -44,6 +43,7 @@
 	"packageManager": "pnpm@9.2.0",
 	"publishConfig": {
 		"access": "public",
-		"registry": "https://registry.npmjs.org/"
+		"registry": "https://registry.npmjs.org/",
+		"provenance": true
 	}
 }
