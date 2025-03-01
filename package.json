@@ -35,7 +35,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.3",
 		"@rslib/core": "^0.1.0",
-		"@types/node": "^20.14.1",
+		"@types/node": "^22.13.8",
 		"nano-staged": "^0.8.0",
 		"simple-git-hooks": "^2.11.1",
 		"typescript": "^5.5.2"
