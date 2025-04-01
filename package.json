@@ -40,7 +40,7 @@
 		"simple-git-hooks": "^2.11.1",
 		"typescript": "^5.8.2"
 	},
-	"packageManager": "pnpm@9.15.6",
+	"packageManager": "pnpm@10.7.0",
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://registry.npmjs.org/",
