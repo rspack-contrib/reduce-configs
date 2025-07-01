@@ -33,7 +33,7 @@
 		]
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.4",
+		"@biomejs/biome": "^2.0.6",
 		"@rslib/core": "^0.10.4",
 		"@rstest/core": "0.0.4",
 		"@types/node": "^22.15.34",
